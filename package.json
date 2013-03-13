@@ -1,0 +1,21 @@
+{
+  "name": "node-c-assets",
+  "version": "0.0.0",
+  "description": "This will generate a full `node` addon that can load assets by name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bmeck/node-c-assets"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "Readme.md",
+  "dependencies": {
+    "graceful-fs": "~1.2.0",
+    "async": "~0.2.6",
+    "readable-stream": "~1.0.2"
+  }
+}
